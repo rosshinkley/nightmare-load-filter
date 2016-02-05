@@ -24,8 +24,6 @@
     "nightmare": "git://github.com/rosshinkley/nightmare#electron-plugin"
   },
   "devDependencies": {
-    "basic-auth": "^1.0.3",
-    "basic-auth-connect": "^1.0.0",
     "chai": "^3.4.1",
     "electron-rebuild": "^1.1.3",
     "express": "^4.13.3",
