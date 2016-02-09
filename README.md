@@ -19,7 +19,6 @@ Adds a prerequest call to `fn` filtered to the URLs specified in `filter`.  The 
 ## Example
 
 ```js
-var onResults;
 yield nightmare
   .filter({
     urls:[
