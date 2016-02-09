@@ -10,7 +10,7 @@ Add pre-load content filtering to your [Nightmare](http://github.com/segmentio/n
 Simply require the library: 
 
 ```js
-require('nightmare-custom-event')
+require('nightmare-load-filter')
 ```
 
 ### .filter(filter, fn)
