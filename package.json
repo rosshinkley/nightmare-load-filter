@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "debug": "^2.2.0",
-    "nightmare": "git://github.com/rosshinkley/nightmare#electron-plugin"
+    "nightmare": "^2.3.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
