@@ -1,8 +1,9 @@
 {
   "name": "nightmare-load-filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "./nightmare-load-filter.js",
+  "description":"Filter requests in NightmareJS",
   "scripts": {
     "test": "mocha test"
   },
