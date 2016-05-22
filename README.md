@@ -4,10 +4,11 @@ nightmare-load-filter
 Add pre-load content filtering to your [Nightmare](http://github.com/segmentio/nightmare) scripts.
 
 ## Usage
-Require the library: 
+Require the library and pass the Nightmare library as a reference to attach the plugin actions:
 
 ```js
-require('nightmare-load-filter')
+var Nightmare = require('nightmare');
+require('nightmare-load-filter')(Nightmare);
 ```
 
 ### .filter(filter, fn)
