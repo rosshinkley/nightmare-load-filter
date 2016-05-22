@@ -35,7 +35,7 @@ var base = 'http://localhost:7500/';
 
 describe('Nightmare Load Filter', function() {
   before(function(done) {
-    require('../nightmare-load-filter');
+    require('../nightmare-load-filter')(Nightmare);
     server.listen(7501, function() {
       server.listen(7500, done);
     });
